@@ -17,6 +17,8 @@ The solution consists of following steps:
 Build and Run:
 
 - clone git repository 
+  git clone https://github.com/sharmavijay/mebank-codetest.git
+- cd mebank-codetest
 - build using "mvn clean package"
 - run tests using "mvn test"
 - run project for input file input.csv using 
@@ -30,11 +32,10 @@ Build and Run:
 
 Example:
 
-vijay@DellLatitude-E6520 ~/test/MEBank/CodeTest $ java -jar target/CodeTest-1.0-SNAPSHOT-jar-with-dependencies.jar input.csv 
+$ java -jar target/CodeTest-1.0-SNAPSHOT-jar-with-dependencies.jar input.csv
 accountId: ACC334455
 from: 20/10/2018 12:00:00
 to: 20/10/2018 19:00:00
-Relative balance for the period is: -25.00
+Relative balance for the period is: -$25.00
 Number of transactions included is: 1
-vijay@DellLatitude-E6520 ~/test/MEBank/CodeTest $ 
-
+$
